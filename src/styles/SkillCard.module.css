@@ -1,0 +1,27 @@
+.card {
+  padding: 1.6rem;
+  border: 1px solid var(--border);
+  border-radius: 1.5rem;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  text-align: center;
+  backdrop-filter: blur(18px);
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.iconWrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  border-radius: 1.2rem;
+  background: rgba(154, 123, 79, 0.14);
+  color: var(--accent-strong);
+  font-size: 1.65rem;
+}

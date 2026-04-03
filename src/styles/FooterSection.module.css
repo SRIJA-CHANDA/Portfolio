@@ -1,0 +1,55 @@
+.footer {
+  padding: 0 0 2rem;
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.6rem;
+  border: 1px solid var(--border);
+  border-radius: 1.8rem;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.inner h3 {
+  margin: 0;
+}
+
+.inner p {
+  margin: 0.3rem 0 0;
+  color: var(--text-soft);
+}
+
+.links {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.links a,
+.backButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.8rem;
+  height: 2.8rem;
+  padding: 0 1rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: transparent;
+}
+
+.backButton {
+  color: var(--text);
+  cursor: pointer;
+}
+
+.copy {
+  margin: 1rem 0 0;
+  text-align: center;
+  color: var(--text-soft);
+  font-size: 0.95rem;
+}
